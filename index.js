@@ -6,6 +6,9 @@ app.get('/', (req, res) => {
   res.send('Hello world! This is releaseversioningtest.');
 });
 
+// index.js
+console.log("Test commit for release workflow");
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
